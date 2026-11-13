@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>影视工具分享</title>
+  
+  <subtitle>线路工具 · 安装教程 · 配置更新</subtitle>
+  <link href="https://heiyuwuxian.top/atom.xml" rel="self"/>
+  
+  <link href="https://heiyuwuxian.top/"/>
+  <updated>2026-11-13T09:55:09.829Z</updated>
+  <id>https://heiyuwuxian.top/</id>
+  
+  <author>
+    <name>馆主</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>影视仓TVbox配置线路教程（图文版）</title>
+    <link href="https://heiyuwuxian.top/posts/yingshicang-install-tutorial/"/>
+    <id>https://heiyuwuxian.top/posts/yingshicang-install-tutorial/</id>
+    <published>2026-11-07T11:00:00.000Z</published>
+    <updated>2026-11-13T09:55:09.829Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>软件和配置获取方式：关注公众号「交界地女巫」回复”教程”，或私信回复”软件”。<br>本站口令：<strong>黑域无限</strong>（夸克 &#x2F; 迅雷 &#x2F; 百度网盘搜索即可）。</p></blockquote><p>影视仓所有版本的使用教程基本一致，下面分三步完成。</p><h2 id="第一步：下载解压安装"><a href="#第一步：下载解压安装" class="headerlink" title="第一步：下载解压安装"></a>第一步：下载解压安装</h2><p>安装包和线路配置都在网盘里，<strong>用夸克网盘 App 扫下面的码即可保存</strong>（<a href="/get/">获取方式页</a>还有迅雷网盘的码）：</p><img src="/img/netdisk-quark.jpg" alt="夸克网盘影视仓安装包二维码" style="width:180px;max-width:60%;border-radius:10px;background:#fff;padding:6px;box-shadow:0 2px 10px rgba(0,0,0,.12)"><p>保存后，在网盘里找到 <code>影视仓TV99.apk</code> 下载即可。</p><p>网盘里的文件长这样（勾选 <code>影视仓TV99.apk</code>，34.5MB）：</p><p><img src="/img/config-1.png" alt="夸克网盘中的影视仓安装包"></p><h2 id="第二步：点击安装到手机或者电视或者PC的模拟器"><a href="#第二步：点击安装到手机或者电视或者PC的模拟器" class="headerlink" title="第二步：点击安装到手机或者电视或者PC的模拟器"></a>第二步：点击安装到手机或者电视或者PC的模拟器</h2><ul><li><strong>手机</strong>：直接点击 APK 安装，提示”未知来源应用”时允许即可</li><li><strong>安卓电视&#x2F;盒子</strong>：U 盘拷贝 APK 安装，或用侧载工具安装</li><li><strong>PC 模拟器</strong>：模拟器安装包已在网盘里，直接保存下载；把 APK 拖进模拟器窗口即可安装</li></ul><p>安卓电视和手机操作一样。装好后打开，主界面如下（PC 模拟器 BlueStacks 中的效果）：</p><p><img src="/img/config-2.png" alt="影视仓主界面"></p><h2 id="第三步：配置入口"><a href="#第三步：配置入口" class="headerlink" title="第三步：配置入口"></a>第三步：配置入口</h2><h3 id="方法一：进入软件，点击”配置”"><a href="#方法一：进入软件，点击”配置”" class="headerlink" title="方法一：进入软件，点击”配置”"></a>方法一：进入软件，点击”配置”</h3><p>进入软件后点击查看”<strong>配置</strong>“里边：</p><ul><li><strong>配置多仓地址</strong> &#x2F; <strong>线路切换</strong> &#x2F; <strong>配置地址</strong>，在配置地址处填入线路链接即可</li><li>电脑端直接<strong>复制粘贴</strong>即可，等待几秒会自动加载新的页面即为成功</li></ul><p><img src="/img/config-3.png" alt="影视仓配置界面标注"></p><h3 id="方法二：从设置入口"><a href="#方法二：从设置入口" class="headerlink" title="方法二：从设置入口"></a>方法二：从设置入口</h3><p>操作方法和上面的一样，<strong>扫码填写链接点确定</strong>即可（也可以直接输入推送链接）：</p><p><img src="/img/config-4.png" alt="推送链接填写标注"></p><h2 id="TVBOX-配置"><a href="#TVBOX-配置" class="headerlink" title="TVBOX 配置"></a>TVBOX 配置</h2><p>用 TV BOX 的朋友，同样扫上面的二维码进网盘，里面含 TVBOX 3 个版本，按需下载。</p><p><strong>操作方法和影视仓一样</strong>，同样按上面第三步的方式填入配置地址即可。</p><h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><p><strong>Q：线路失效或卡顿？</strong><br>A：线路会不定期失效，打开夸克&#x2F;迅雷&#x2F;百度网盘搜索口令 <strong>黑域无限</strong> 获取最新配置，或关注<a href="/categories/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A/">更新公告</a>和公众号「交界地女巫」。</p><hr><blockquote><p>⚠️ 本站只分享线路工具和配置方法，不含任何影视资源，请支持正版。</p></blockquote>]]></content>
+    
+    
+    <summary type="html">影视仓所有版本的使用方法基本一致，本文用标注截图带你完成下载、安装和线路配置，手机、电视、模拟器通用。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://heiyuwuxian.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://heiyuwuxian.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="影视仓" scheme="https://heiyuwuxian.top/tags/%E5%BD%B1%E8%A7%86%E4%BB%93/"/>
+    
+    <category term="TVBox" scheme="https://heiyuwuxian.top/tags/TVBox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【11月】线路更新公告</title>
+    <link href="https://heiyuwuxian.top/posts/update-2026-11-07/"/>
+    <id>https://heiyuwuxian.top/posts/update-2026-11-07/</id>
+    <published>2026-11-07T04:30:00.000Z</published>
+    <updated>2026-11-13T10:00:04.969Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="【11月】线路更新公告"><a href="#【11月】线路更新公告" class="headerlink" title="【11月】线路更新公告"></a>【11月】线路更新公告</h1><p>▍<strong>本次更新内容</strong></p><ul><li>重新整理网盘资源：影视仓安装包 + TVBOX 各版本 + 模拟器安装包</li><li>更新最新线路配置，改善卡顿 &#x2F; 清晰度问题</li><li>获取方式改为<strong>扫码保存</strong>，不再需要复制链接</li></ul><p>▍<strong>获取方式（扫码保存，口令不变：黑域无限）</strong><br>打开<a href="/get/">获取方式</a>页面，用夸克或迅雷 App 扫码保存；也可以在网盘内搜索口令：<strong>黑域无限</strong>。下载最新配置文件，导入影视仓 &#x2F; TVBox 即可使用。</p><p>▍<strong>老用户看这里</strong></p><ul><li>不用重装软件，只需重新导入最新配置文件</li><li>导入方法：软件设置 → 配置地址 → 粘贴新配置</li></ul><p>▍<strong>新用户看这里</strong></p><ul><li>查看<a href="/posts/install-guide/">安装配置教程</a></li><li>或关注公众号「交界地女巫」，回复关键词获取资料</li></ul><blockquote><p>⚠️ 本站只分享线路工具和配置方法，不含任何影视原片资源。</p></blockquote>]]></content>
+    
+    
+    <summary type="html">11月线路更新说明与获取方式。</summary>
+    
+    
+    
+    <category term="更新公告" scheme="https://heiyuwuxian.top/categories/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="更新公告" scheme="https://heiyuwuxian.top/tags/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>影视仓/TVBox 安装配置教程（图文版）</title>
+    <link href="https://heiyuwuxian.top/posts/install-guide/"/>
+    <id>https://heiyuwuxian.top/posts/install-guide/</id>
+    <published>2026-11-07T04:00:00.000Z</published>
+    <updated>2026-11-13T10:00:09.864Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="影视仓-TVBox-安装配置教程"><a href="#影视仓-TVBox-安装配置教程" class="headerlink" title="影视仓&#x2F;TVBox 安装配置教程"></a>影视仓&#x2F;TVBox 安装配置教程</h1><blockquote><p>本站只分享线路工具和配置方法，不含任何影视内容资源。</p></blockquote><h2 id="一、获取软件和配置"><a href="#一、获取软件和配置" class="headerlink" title="一、获取软件和配置"></a>一、获取软件和配置</h2><ol><li>用手机扫下面的码，保存到夸克网盘（<a href="/get/">获取方式页</a>另有迅雷网盘的码）</li><li>不想扫码，也可以在网盘搜索框输入口令：<strong>黑域无限</strong></li><li>下载最新版软件安装包（APK）和配置文件</li></ol><img src="/img/netdisk-quark.jpg" alt="夸克网盘影视仓安装包二维码" style="width:160px;max-width:55%;border-radius:10px;background:#fff;padding:6px;box-shadow:0 2px 10px rgba(0,0,0,.12)"><h2 id="二、安装软件"><a href="#二、安装软件" class="headerlink" title="二、安装软件"></a>二、安装软件</h2><ol><li>将 APK 传到电视&#x2F;盒子上安装（U盘 或 当贝市场等侧载工具）</li><li>手机端直接安装 APK 即可</li><li>如提示”未知来源”，允许安装即可</li></ol><h2 id="三、导入线路配置"><a href="#三、导入线路配置" class="headerlink" title="三、导入线路配置"></a>三、导入线路配置</h2><ol><li>打开影视仓 &#x2F; TVBox</li><li>进入 <strong>设置 → 配置地址</strong></li><li>删除旧地址，填入最新配置（配置文件里有说明）</li><li>点确定，等待加载完成，回到首页即可</li></ol><h2 id="四、常见问题"><a href="#四、常见问题" class="headerlink" title="四、常见问题"></a>四、常见问题</h2><p><strong>Q：换台卡顿怎么办？</strong><br>A：换备用线路，本站更新公告里会注明当前最流畅的线路。</p><p><strong>Q：加载不出频道？</strong><br>A：检查配置地址是否填对、网络是否正常，或等本站发布更新。</p><p><strong>Q：多久更新一次？</strong><br>A：线路失效会不定期更新，关注公众号可第一时间收到更新通知。</p><hr><p>💬 更多问题可在文章下方留言，或关注公众号「交界地女巫」回复关键词获取资料。</p>]]></content>
+    
+    
+    <summary type="html">从安装软件到导入线路配置的完整图文教程，手机/电视/投影仪通用。</summary>
+    
+    
+    
+    <category term="教程" scheme="https://heiyuwuxian.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://heiyuwuxian.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="影视仓" scheme="https://heiyuwuxian.top/tags/%E5%BD%B1%E8%A7%86%E4%BB%93/"/>
+    
+    <category term="TVBox" scheme="https://heiyuwuxian.top/tags/TVBox/"/>
+    
+  </entry>
+  
+</feed>
