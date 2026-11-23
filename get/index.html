@@ -6,8 +6,8 @@
 <meta property="og:description" content="全部资源已改为二维码分发，按资源名称扫码保存到网盘即可，本站不再提供任何网盘链接。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://heiyuwuxian.top/img/butterfly-icon.png">
-<meta property="article:published_time" content="2026-11-17T07:24:23.051Z">
-<meta property="article:modified_time" content="2026-11-17T07:24:23.051Z">
+<meta property="article:published_time" content="2026-11-23T02:52:15.032Z">
+<meta property="article:modified_time" content="2026-11-23T02:52:15.032Z">
 <meta property="article:author" content="馆主">
 <meta property="article:tag" content="影视仓,TVBox,线路,教程">
 <meta name="twitter:card" content="summary">
@@ -215,7 +215,7 @@
 <h2 id="资源栏目"><a href="#资源栏目" class="headerlink" title="资源栏目"></a>资源栏目</h2><div class="cat-cards">
   <div class="cat-card">
     <h3>影视仓 / TVBox 资源</h3>
-    <p>安装包、TVBOX 各版本、模拟器、线路配置<br>下方 4 个二维码按名称对应</p>
+    <p>安装包、TVBOX 各版本、模拟器、线路配置<br>下方 5 个二维码按名称对应</p>
     <a class="cat-btn" href="#qr-all">查看下载码</a>
   </div>
   <div class="cat-card">
@@ -251,9 +251,15 @@
     <p>迅雷网盘<br>语音合成工具</p>
   </div>
 
+  <div class="qr-card">
+    <h3>黑域无限的资源（UC网盘）</h3>
+    <img loading="lazy" src="/img/netdisk-uc.png" alt="黑域无限的资源 UC网盘二维码">
+    <p>UC网盘<br>综合资源合集<br><b>提取码 CzB3</b>（扫码后需输入）</p>
+  </div>
+
 </div>
 
-<div class="qr-tip">4 个码对应不同资源，按名称扫对应的码即可。二维码失效会在<a href="/updates/">线路状态与更新日志</a>里替换，收藏本页更省事。</div>
+<div class="qr-tip">5 个码对应不同资源，按名称扫对应的码即可。UC网盘扫码后需输入提取码 <b>CzB3</b>。二维码失效会在<a href="/updates/">线路状态与更新日志</a>里替换，收藏本页更省事。</div>
 
 <h2 id="扫码后三步"><a href="#扫码后三步" class="headerlink" title="扫码后三步"></a>扫码后三步</h2><ol>
 <li>扫对应资源的码，跳转到网盘后点「保存到我的网盘」</li>
@@ -263,18 +269,24 @@
 <h2 id="口令（不方便扫码时）"><a href="#口令（不方便扫码时）" class="headerlink" title="口令（不方便扫码时）"></a>口令（不方便扫码时）</h2><p>在网盘 App 的搜索框输入统一口令也能找到资源：</p>
 <div class="qr-note">
   <b>黑域无限</b>
-  <button class="qr-copy" type="button" onclick="copyKeyword(this)">一键复制口令</button>
+  <button class="qr-copy" type="button" onclick="copyText(this, '黑域无限', '打开夸克 / 迅雷 App，粘贴到搜索框即可', '一键复制口令')">一键复制口令</button>
   <span class="qr-copy-msg" id="qr-copy-msg"></span>
 </div>
 
+<p>UC网盘的资源需要提取码（扫 UC 码后输入）：</p>
+<div class="qr-note">
+  <b>CzB3</b>
+  <button class="qr-copy" type="button" onclick="copyText(this, 'CzB3', '扫 UC 网盘二维码后，粘贴到提取码输入框', '一键复制提取码')">一键复制提取码</button>
+  <span class="qr-copy-msg" id="qr-uc-msg"></span>
+</div>
+
 <script>
-function copyKeyword(btn){
-  var text = '黑域无限';
-  var msg = document.getElementById('qr-copy-msg');
+function copyText(btn, text, tip, label){
+  var msg = btn.nextElementSibling;
   function done(){
     btn.textContent = '已复制';
-    if(msg) msg.textContent = '打开夸克 / 迅雷 App，粘贴到搜索框即可';
-    setTimeout(function(){ btn.textContent = '一键复制口令'; }, 2500);
+    if(msg) msg.textContent = tip;
+    setTimeout(function(){ btn.textContent = label; }, 2500);
   }
   if(navigator.clipboard && navigator.clipboard.writeText){
     navigator.clipboard.writeText(text).then(done, function(){ fallbackCopy(text, done); });
@@ -283,6 +295,7 @@ function copyKeyword(btn){
   // if(window.gtag) gtag('event','copy_keyword',{ page: '/get/' });
   // if(window.umami) umami.track('copy_keyword');
 }
+function copyKeyword(btn){ copyText(btn, '黑域无限', '打开夸克 / 迅雷 App，粘贴到搜索框即可', '一键复制口令'); }
 function fallbackCopy(text, cb){
   var ta = document.createElement('textarea');
   ta.value = text; document.body.appendChild(ta); ta.select();
@@ -300,6 +313,7 @@ function fallbackCopy(text, cb){
 <li><strong>影视仓 &#x2F; TVBox 安装包与线路配置</strong> —— 扫「夸克」或「迅雷」</li>
 <li><strong>AI 工作流与提示词</strong> —— 扫「MiniMaxH3模型和工作流以及提示词skill」</li>
 <li><strong>语音合成工具</strong> —— 扫「TTS语音合成软件」</li>
+<li><strong>综合资源合集（UC网盘）</strong> —— 扫「黑域无限的资源（UC网盘）」，提取码 CzB3</li>
 <li>影视仓网盘内包含：影视仓TV99.apk、TVBox 各版本、模拟器安装包、最新线路配置</li>
 </ul>
 <h2 id="失效反馈"><a href="#失效反馈" class="headerlink" title="失效反馈"></a>失效反馈</h2><ul>
@@ -316,14 +330,14 @@ function fallbackCopy(text, cb){
   "mainEntity": [
     {"@type":"Question","name":"怎么获取影视仓安装包和线路配置？","acceptedAnswer":{"@type":"Answer","text":"在「获取方式」页按资源名称扫描对应二维码，保存到夸克或迅雷网盘后即可下载；也可以在网盘 App 搜索口令「黑域无限」。"}},
     {"@type":"Question","name":"二维码失效了怎么办？","acceptedAnswer":{"@type":"Answer","text":"收藏获取方式页或查看线路状态与更新日志，失效后会替换新码；也可在公众号「交界地女巫」回复「失效」反馈。"}},
-    {"@type":"Question","name":"扫描二维码后还需要提取码吗？","acceptedAnswer":{"@type":"Answer","text":"迅雷网盘的提取码已经包含在二维码里，扫码打开即可；夸克网盘无需提取码。"}}
+    {"@type":"Question","name":"扫描二维码后还需要提取码吗？","acceptedAnswer":{"@type":"Answer","text":"迅雷网盘的提取码已经包含在二维码里，扫码打开即可；夸克网盘无需提取码；UC网盘扫码后需输入提取码 CzB3。"}}
   ]
 }
 </script>
 </div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img loading="lazy" src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">馆主</div><div class="author-info-description">分享影视仓/TVBox 线路工具与安装教程，持续更新</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" href="/get/"><i class="fas fa-download"></i><span>扫码获取</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><div style="line-height:1.9">📌 <b>资料获取</b><br>用手机<b>扫码</b>保存到网盘<br><a href="/get/" style="color:#49b1f5"><b>获取方式</b></a> 页面<br><br>或网盘搜索口令：<b>黑域无限</b><br><br>🎨 <b>ComfyUI 资源</b><br><a href="/comfyui/" style="color:#49b1f5"><b>Krea2 Turbo / 3060 工作流</b></a><br><br>📢 更新通知<br>公众号「交界地女巫」回复：影视仓 / 线路 / 教程</div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/ai-lingjidan-fuli/" title="黑域无限的AI领鸡蛋福利">黑域无限的AI领鸡蛋福利</a><time datetime="2026-11-13T12:30:00.000Z" title="发表于 2026-11-13 20:30:00">2026-11-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/yingshicang-install-tutorial/" title="影视仓TVbox配置线路教程（图文版）"><img loading="lazy" src="/img/config-3.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="影视仓TVbox配置线路教程（图文版）"/></a><div class="content"><a class="title" href="/posts/yingshicang-install-tutorial/" title="影视仓TVbox配置线路教程（图文版）">影视仓TVbox配置线路教程（图文版）</a><time datetime="2026-11-07T11:00:00.000Z" title="发表于 2026-11-07 19:00:00">2026-11-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/update-2026-11-07/" title="【11月】线路更新公告">【11月】线路更新公告</a><time datetime="2026-11-07T04:30:00.000Z" title="发表于 2026-11-07 12:30:00">2026-11-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/install-guide/" title="影视仓/TVBox 安装配置教程（图文版）">影视仓/TVBox 安装配置教程（图文版）</a><time datetime="2026-11-07T04:00:00.000Z" title="发表于 2026-11-07 12:00:00">2026-11-07</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div>
           <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">教程</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A/"><span class="card-category-list-name">更新公告</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%B5%84%E6%BA%90%E7%A6%8F%E5%88%A9/"><span class="card-category-list-name">资源福利</span><span class="card-category-list-count">1</span></a></li>
-          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.5em; color: #99a9bf">教程</a> <a href="/tags/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A/" style="font-size: 1.1em; color: #999">更新公告</a> <a href="/tags/%E5%BD%B1%E8%A7%86%E4%BB%93/" style="font-size: 1.5em; color: #99a9bf">影视仓</a> <a href="/tags/%E8%B5%84%E6%BA%90/" style="font-size: 1.1em; color: #999">资源</a> <a href="/tags/TVBox/" style="font-size: 1.5em; color: #99a9bf">TVBox</a> <a href="/tags/%E7%81%B5%E7%8F%A0AI/" style="font-size: 1.1em; color: #999">灵珠AI</a> <a href="/tags/AI/" style="font-size: 1.1em; color: #999">AI</a> <a href="/tags/%E7%A6%8F%E5%88%A9/" style="font-size: 1.1em; color: #999">福利</a></div></div><div class="card-widget card-archives">
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/TVBox/" style="font-size: 1.5em; color: #99a9bf">TVBox</a> <a href="/tags/%E7%A6%8F%E5%88%A9/" style="font-size: 1.1em; color: #999">福利</a> <a href="/tags/%E6%9B%B4%E6%96%B0%E5%85%AC%E5%91%8A/" style="font-size: 1.1em; color: #999">更新公告</a> <a href="/tags/%E5%BD%B1%E8%A7%86%E4%BB%93/" style="font-size: 1.5em; color: #99a9bf">影视仓</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.5em; color: #99a9bf">教程</a> <a href="/tags/AI/" style="font-size: 1.1em; color: #999">AI</a> <a href="/tags/%E8%B5%84%E6%BA%90/" style="font-size: 1.1em; color: #999">资源</a> <a href="/tags/%E7%81%B5%E7%8F%A0AI/" style="font-size: 1.1em; color: #999">灵珠AI</a></div></div><div class="card-widget card-archives">
     <div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div>
   
     <ul class="card-archive-list">
@@ -338,4 +352,4 @@ function fallbackCopy(text, cb){
         </li>
       
     </ul>
-  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">4</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-11-17T07:24:31.689Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By 馆主</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.2</a></span></div><div class="footer_custom_text">本站只分享线路工具、配置方法与工具资料，不含影视资源</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.2"></script><script src="/js/main.js?v=5.7.2"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">4</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-11-23T02:53:25.801Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2026 By 馆主</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.2</a></span></div><div class="footer_custom_text">本站只分享线路工具、配置方法与工具资料，不含影视资源</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.2"></script><script src="/js/main.js?v=5.7.2"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
